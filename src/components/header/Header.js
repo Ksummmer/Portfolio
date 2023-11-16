@@ -1,7 +1,19 @@
+import React from "react";
 import "./style.css";
 
 
 const Header = () => {
+  const onButtonClick = () => {
+    const pdfUrl = "CV.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "document.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
+
   return (
     <header className="header">
       <div className="header__wrapper">
@@ -12,7 +24,8 @@ const Header = () => {
         <div className="header__text">
           <p>with a passion for learning and creating.</p>
         </div>
-        <a href="#!" className="btn">Download CV</a>
+        
+        <button onClick={onButtonClick} className="btn">Download CV</button>
       </div>
     </header>
   );
