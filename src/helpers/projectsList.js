@@ -12,7 +12,7 @@ const projects = [
         gitHubLink: 'https://github.com/Ksummmer/Project_Image_processing_API'
     },
     {
-        title: 'MyStore',
+        title: 'MyStore Application',
         skills: 'AngularCLI, Typescript, JavaScript, CSS, HTML',
         img: project02,
         gitHubLink: 'https://github.com/Ksummmer/Project_MyStore'
@@ -24,7 +24,7 @@ const projects = [
         gitHubLink: 'https://github.com/Ksummmer/Project_Storefront_Backend'
     },
     {
-        title: 'Udagram Application Deployment/ Hosting a FullStack Application',
+        title: 'Udagram Application Deployment',
         skills: 'AWS Services, CircleCI, Angular, Node.js, Express',
         img: project04,
         gitHubLink: 'https://github.com/Ksummmer/Udagram_Application_Deployment'

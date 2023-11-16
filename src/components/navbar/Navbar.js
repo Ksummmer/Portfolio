@@ -6,9 +6,6 @@ const Navbar = () => {
     const activeLink = "nav-list__link--active";
     const normalLink = "nav-list__link";
 
-
-
-
     return (
         <nav className="nav">
             <div className="container">
