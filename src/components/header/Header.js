@@ -25,7 +25,7 @@ const Header = () => {
         </h1>
         <div className="header__text">
           <p>I'm a Fullstack JavaScript Web-Developer, 
-          <br />based in Germany and looking for new job opprtunities.</p>
+          <br />based in Germany and looking for new job opportunities.</p>
         </div>
         
         <button onClick={onButtonClick} className="btn">Download CV</button>

@@ -238,13 +238,11 @@ body {
 		justify-content: space-between;
 	}
 
-
+	
 	/* General */
 
 	.section {
-		color: var(--black);
-		background: var(--black);
-		padding: 40px 0;	
+		padding: 40px 0;
 	}
 
 	.title-1 {
@@ -263,38 +261,13 @@ body {
 		font-size: 22px;
 	}
 
-	
-.project-details {
-	margin: 0 auto;
-	max-width: 865px;
+	/* Project page */
 
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	.project-details__desc {
+		margin-bottom: 20px;
+		font-size: 22px;
+	}
 
-	text-align: center;
-}
-
-.project-details__cover {
-	border-radius: 30px;
-	height: 370px;
-	width: 370px;
-	margin-bottom: 40px;
-
-	box-shadow: var(--box-shadow);
-	border-radius: 10px;
-}
-
-.project-details__desc {
-	margin-bottom: 30px;
-	color: white;
-
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 1.3;
-}
-
-	
 	/* Content List */
 
 	.content-list {
