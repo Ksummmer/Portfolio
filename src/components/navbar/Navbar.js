@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="container">
                 <div className="nav-row">
                     <NavLink to="/" className="logo">
-                        <strong>FullStack JavaScript Developer</strong> portfolio
+                        <strong>FullStack JavaScript Developer</strong>  <br />portfolio
                     </NavLink>
 
                     <ul className="nav-list">
