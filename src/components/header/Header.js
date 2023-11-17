@@ -4,7 +4,7 @@ import "./style.css";
 
 const Header = () => {
   const onButtonClick = () => {
-    const pdfUrl = "Portfolio/static/CV.pdf";
+    const pdfUrl = "static/CV.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "document.pdf";
