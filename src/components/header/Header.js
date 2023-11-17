@@ -18,11 +18,14 @@ const Header = () => {
     <header className="header">
       <div className="header__wrapper">
         <h1 className="header__title">
-          <strong>Hello, my name is <em>Kseniia</em></strong><br />
-          I'm a Full Stack Developer
+          <strong>Hello, I'm Kseniia </strong><br />
+          Welcome to my portfolio
+
+          
         </h1>
         <div className="header__text">
-          <p>with a passion for learning and creating.</p>
+          <p>I'm a Fullstack JavaScript Web-Developer, 
+          <br />based in Germany and looking for new job opprtunities.</p>
         </div>
         
         <button onClick={onButtonClick} className="btn">Download CV</button>

@@ -15,7 +15,7 @@
 	background-position: center center;
 
 	color: var(--header-text);
-	text-align: center;
+	text-align: left;
 }
 
 .header__wrapper {
