@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="container">
           <div className="footer__wrapper">
             <ul className="social">
-              <li className="social__item"><a href="#!"><img src={linkedin} alt="www.linkedin.com/in/kseniia-belova-284977101" /></a></li>
-              <li className="social__item"><a href="#!"><img src={github} alt="https://github.com/Ksummmer" /></a></li>
+              <li className="social__item"><a href="https://linkedin.com/in/kseniia-belova-284977101"><img src={linkedin} alt="linkedinlink" /></a></li>
+              <li className="social__item"><a href="https://github.com/Ksummmer"><img src={github} alt="githublink" /></a></li>
             </ul>
             <div className="copyright">
               <p>© 2023 ksummmer </p>

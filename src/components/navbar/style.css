@@ -19,7 +19,7 @@
 
 .logo {
 	margin-right: auto;
-	color: var(--nav-text);
+	color: var(--blue);
 	font-size: 24px;
 	font-family: 'Poppins', sans-serif;
 }
@@ -50,6 +50,7 @@
 
 .nav-list__link--active {
 	position: relative;
+	color: var(--blue);
 }
 
 .nav-list__link--active::before {

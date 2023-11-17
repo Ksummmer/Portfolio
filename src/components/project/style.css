@@ -2,7 +2,7 @@
 	display:inline-block;  
     position:relative;
 	width: 370px;
-	background-color: var(--blackpure);
+	background-color: var(--black);
 	box-shadow: var(--box-shadow);
 }
 
